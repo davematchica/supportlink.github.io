@@ -25,7 +25,8 @@ function onClick() {
         <v-container>
           <v-row>
             <v-col cols="12" md="6" class="mx-auto"
-              ><v-card class="mx-auto" prepend-icon="mdi-account-circle" subtitle="Log in">
+              ><v-card class="mx-auto text-center" subtitle="Log in">
+                <v-img class="mx-auto" src="/public/img/login_logo.png" width="25%"></v-img>
                 <template v-slot:title>
                   <span class="font-weight-black">SupportLink</span>
                 </template>
